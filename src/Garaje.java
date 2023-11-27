@@ -55,9 +55,9 @@ public class Garaje {
         recibido = sc.nextFloat();
         do {
             if (recibido < prezo) {
-                System.out.println("[info]  | Prezo = " + prezo);
-                System.out.println("[info]  | Dinero recibido = " + recibido);
-                System.out.print("[input] | - [Formato 0,0] - Introduzca os cartos restantes: ");
+                System.out.println("[info]  Prezo = " + prezo);
+                System.out.println("[info]   Dinero recibido = " + recibido);
+                System.out.print("[input]  - [Formato 0,0] - Introduzca os cartos restantes: ");
                 restante = sc.nextFloat();
                 recibido = recibido + restante;
             }else{
